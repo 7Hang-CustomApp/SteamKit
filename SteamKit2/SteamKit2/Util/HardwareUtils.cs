@@ -283,7 +283,7 @@ namespace SteamKit2
 
     static class HardwareUtils
     {
-        class MachineID : MessageObject
+        public class MachineID : MessageObject
         {
             public MachineID()
                 : base()
